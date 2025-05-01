@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doğru mu, Uydurma mı?</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+  style
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="menu">
+    <h1 style="font-family: 'Winky Rough', cursive;">Doğru mu, Uydurma mı?</h1>
+
+
+    <div id="sectionButtons"></div>
+  </div>
+
+  <div class="container" id="game" style="display:none;">
+    <h1 id="sectionTitle"></h1>
+    <div class="question" id="question">Yükleniyor...</div>
+    <div class="explanation" id="explanation"></div>
+    <div class="btn-group" id="answerButtons">
+      <button class="true-btn" onclick="answer(true)">Doğru</button>
+      <button class="false-btn" onclick="answer(false)">Uydurma</button>
+    </div>
+    <button id="nextBtn" onclick="nextQuestion()">Sonraki</button>
+    <div class="result" id="result"></div>
+    <div class="final-score" id="final-score"></div>
+    <div class="feedback" id="feedback"></div>
+  </div>
+
+
+ <script src="script.js"></script>  
+    
+
+</body>
+</html>

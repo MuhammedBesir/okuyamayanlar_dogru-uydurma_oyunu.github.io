@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf6ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    color: #111;
+    background-image: url('Adsız tasarım5.jpg'); /* Örnek bir fotoğraf URL'si */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* İkonları tamamen kaldırmak için */
+    z-index: 0;
+  }
+  
+      .container {
+        background: #ffffffa9;
+        padding: 2rem;
+        border-radius: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+      }
+  
+      h1 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        color: #111;
+      }
+  
+      .question {
+        font-size: 1.25rem;
+        margin: 1.5rem 0 0.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+  
+      .explanation {
+        font-size: 0.95rem;
+        margin-top: 0.5rem;
+        color: #444;
+      }
+  
+      .btn-group {
+        display: flex;
+        gap: 1 rem;
+        justify-content: center;
+        margin-bottom: 1 rem;
+        margin-left: 0.5 rem;
+      }
+  
+      button {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: background 0.3s;
+        
+        
+        
+      }
+     
+      .true-btn {
+        background: #4caf50;
+        color: white;
+        margin-right: 0.5rem;
+      }
+  
+      .false-btn {
+        background: #f44336;
+        color: white;
+      }
+  
+      .true-btn:hover {
+        background: #45a049;
+      }
+  
+      .false-btn:hover {
+        background: #d32f2f;
+      }
+  
+      .section-btn {
+        background-color: #2195f3e3;
+        color: white;
+        margin: 0.5rem ;
+        font-family: 'Winky Rough', cursive;
+        
+      }
+  
+      .section-btn:hover {
+        background-color: #1976d2;
+      }
+  
+      .result, .final-score, .feedback {
+        margin-top: 1rem;
+      }
+  
+      #nextBtn {
+        margin-top: 1rem;
+        display: none;
+        background-color: #ff9800;
+        color: white;
+      }
+  
+      #nextBtn:hover {
+        background-color: #fb8c00;
+      }
