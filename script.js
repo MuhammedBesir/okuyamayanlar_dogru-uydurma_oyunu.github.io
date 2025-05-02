@@ -6,7 +6,7 @@ const sections = [
         { icon: "🦉", text: "Harry'nin baykuşunun adı Hedwig'dir.", correct: true, explanation: "Doğru, sadık baykuşu Hedwig'tir." },
         { icon: "⚡", text: "Harry'nin alnındaki yara yıldız şeklidir.", correct: false, explanation: "Hayır, yara izi yıldırım şekillidir." },
         { icon: "🔮", text: "Dumbledore, Hogwarts'ın müdürüdür.", correct: true, explanation: "Doğru, Albus Dumbledore Hogwarts'ın müdürüdür." },
-        { icon: "🧹", text: "Quidditch, Hogwarts'ta öğretilen bir dersin adıdır.", correct: false, explanation: "Hayır, Quidditch bir spor dalıdır, ders değildir." },
+        { icon: "🧹", text: "Quidditch, Hogwarts'ta spor dalııdır.", correct: true, explanation: "Hayır, Quidditch bir spor dalıdır." },
       ]
     },
     {
@@ -31,7 +31,7 @@ const sections = [
         { icon: "🎈", text: "Oğuz Atay'ın Tutunamayanlar adlı eseri bir şiirdir.", correct: false, explanation: "Hayır, bir romandır." },
         { icon: "📚", text: "Zülfü Livaneli'nin Serenad adlı eseri Almanya'da geçer.", correct: false, explanation: "Büyük kısmı İstanbul'da geçer." },
         { icon: "💔", text: "Buket Uzuner'in Kumral Ada Mavi Tuna romanıdır.", correct: true, explanation: "Doğru, modern Türk edebiyatının sevilen romanlarındandır." },
-        { icon: "🧳", text: "Sabahattin Ali'nin Kürk Mantolu Madonna'sı bir denemedir.", correct: false, explanation: "Hayır, bu bir romandır." },
+        { icon: "🧳", text: "Sabahattin Ali'nin Kürk Mantolu Madonna'sı bir romandır.", correct: true, explanation: "Evet, bu bir romandır." },
         { icon: "🎨", text: "Orhan Pamuk'un Benim Adım Kırmızı romanında minyatür sanatı konu edilir.", correct: true, explanation: "Doğru, minyatürcüler anlatılır." },
       ]
     },
