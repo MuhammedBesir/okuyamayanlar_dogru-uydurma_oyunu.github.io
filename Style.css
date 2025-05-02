@@ -30,16 +30,24 @@ body {
   }
   
       .container {
-        background: #ffffffa9;
-        padding: 2rem;
-        border-radius: 2rem;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        width: 100%;
-        max-width: 500px;
-        text-align: center;
-        z-index: 1;
-        position: relative;
-      }
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 2rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+  }
   
       h1 {
         margin-bottom: 1rem;
@@ -127,3 +135,23 @@ body {
       #nextBtn:hover {
         background-color: #fb8c00;
       }
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .question {
+    font-size: 1rem;
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin: 0.25rem 0;
+  }
+}
