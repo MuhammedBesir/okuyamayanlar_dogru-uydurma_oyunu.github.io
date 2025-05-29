@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammedBesir/okuyamayanlar_dogru-uydurma_oyunu.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammedBesir/okuyamayanlar_dogru-uydurma_oyunu.github.io/issues"
+  },
+  "homepage": "https://github.com/MuhammedBesir/okuyamayanlar_dogru-uydurma_oyunu.github.io#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "nodemailer": "^7.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "uuid": "^11.1.0",
+    "whatsapp-web.js": "^1.28.0"
+  }
+}
